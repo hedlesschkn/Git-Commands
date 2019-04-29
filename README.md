@@ -1,28 +1,29 @@
-go to github.com, create a new repo
-git clone [URL]
-git status (shows difference between local git and github cloud)
-git add [filename] (adds any changes or files by name to lcoal git)
-git add . (add everything in the directory)
-git add -A (add all) 
-git commit -m "[message]" (commits change to local git w/ message)
-git push (sync local git with github cloud)
+go to github.com, create a new repo </br>
+cd to directory (I use Documents/Arduino)
+git clone [URL] </br>
+git status (shows difference between local git and github cloud) </br>
+git add [filename] (adds any changes or files by name to lcoal git) </br>
+git add . (add everything in the directory) </br>
+git add -A (add all) </br>
+git commit -m "[message]" (commits change to local git w/ message) </br>
+git push (sync local git with github cloud) </br>
 
-git pull (pulls from github cloud to git local)
+git pull (pulls from github cloud to git local) </br>
 
 ---------------------------------------------------------
 
-more:
-git (gives list of commands)
-esc :wq (escapes and saves from a 'you didn't give a message' warning from a commit or lets you do multiline)
+more: </br>
+git (gives list of commands) </br>
+esc :wq (escapes and saves from a 'you didn't give a message' warning from a commit or lets you do multiline) </br>
 
-first commit will ask:
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+first commit will ask: </br>
+git config --global user.email "you@example.com" </br>
+git config --global user.name "Your Name" </br>
 
-alias
-echo @dir %* > %systemroot%\system32\ls.bat
+alias: </br>
+echo @dir %* > %systemroot%\system32\ls.bat </br>
 
-
+---------------------------------------------------------
 
 Git Commands
 ============
