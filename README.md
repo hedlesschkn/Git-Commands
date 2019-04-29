@@ -3,14 +3,14 @@ cd to directory (I use Documents/Arduino)
 git clone [URL] </br>
 git status (shows difference between local git and github cloud) </br>
 git add [filename] (adds any changes or files by name to lcoal git) </br>
-git add . (add everything in the directory) </br>
-git add -A (add all) </br>
+ - git add . (add everything in the directory) </br>
+ - git add -A (add all) </br>
 git commit -m "[message]" (commits change to local git w/ message) </br>
 git push (sync local git with github cloud) </br>
 
 git pull (pulls from github cloud to git local) </br>
 
----------------------------------------------------------
+----
 
 more: </br>
 git (gives list of commands) </br>
@@ -23,7 +23,7 @@ git config --global user.name "Your Name" </br>
 alias: </br>
 echo @dir %* > %systemroot%\system32\ls.bat </br>
 
----------------------------------------------------------
+----
 
 Git Commands
 ============
