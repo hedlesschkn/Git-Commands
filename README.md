@@ -1,3 +1,29 @@
+go to github.com, create a new repo
+git clone [URL]
+git status (shows difference between local git and github cloud)
+git add [filename] (adds any changes or files by name to lcoal git)
+git add . (add everything in the directory)
+git add -A (add all) 
+git commit -m "[message]" (commits change to local git w/ message)
+git push (sync local git with github cloud)
+
+git pull (pulls from github cloud to git local)
+
+---------------------------------------------------------
+
+more:
+git (gives list of commands)
+esc :wq (escapes and saves from a 'you didn't give a message' warning from a commit or lets you do multiline)
+
+first commit will ask:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+alias
+echo @dir %* > %systemroot%\system32\ls.bat
+
+
+
 Git Commands
 ============
 
