@@ -13,6 +13,14 @@ git push (sync local git with github cloud)
 git pull (pulls from github cloud to git local)  
 
 ----
+revisioning (versioning)
+
+git log  
+git log --summary (includes created files)  
+ - :q leaves log  
+git checkout hash
+ - can also add tags for version names (more human readable and can be accessed by tag instead of hash later)
+----
 
 more: </br>
 git (gives list of commands) </br>
