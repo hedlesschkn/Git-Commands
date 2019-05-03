@@ -1,15 +1,16 @@
-go to github.com, create a new repo </br>
-cd to directory (I use Documents/Arduino)
-git clone [URL] </br>
-git status (shows difference between local git and github cloud) </br>
-git add [filename] (adds any changes or files by name to lcoal git) </br>
- - git add . (add everything in the directory) </br>
- - git add -A (add all) </br>
+go to github.com, create a new repo  
+cd to directory (I use Documents/Arduino)  
+git clone [URL]  
+git status (shows difference between local git and github cloud)  
+git add [filename] (adds any changes or files by name to lcoal git)  
+ - git add . (add everything in the directory)  
+ - git add -A (add all)  
  
-git commit -m "[message]" (commits change to local git w/ message) </br>
-git push (sync local git with github cloud) </br>
+git commit -m "[message]" (commits change to local git w/ message)  
+can also do git commit -a -m "[message]" (this does add and commit in one command)  
+git push (sync local git with github cloud)  
 
-git pull (pulls from github cloud to git local) </br>
+git pull (pulls from github cloud to git local)  
 
 ----
 
