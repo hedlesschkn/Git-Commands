@@ -1,3 +1,7 @@
+### starting from an existing project  
+https://kbroman.org/github_tutorial/pages/init.html
+
+### starting from github  
 go to github.com, create a new repo  
 cd to directory (I use Documents/Arduino)  
 git clone [URL]  
