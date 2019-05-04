@@ -22,16 +22,18 @@ git checkout hash
  - can also add tags for version names (more human readable and can be accessed by tag instead of hash later)
 ----
 
-more: </br>
-git (gives list of commands) </br>
-esc :wq (escapes and saves from a 'you didn't give a message' warning from a commit or lets you do multiline) </br>
+more:  
+git (gives list of commands)  
+esc :wq (escapes and saves from a 'you didn't give a message' warning from a commit or lets you do multiline)  
+remove a git:  
+rm -rf .git  
 
-first commit will ask: </br>
-git config --global user.email "you@example.com" </br>
-git config --global user.name "Your Name" </br>
+first commit will ask:  
+git config --global user.email "you@example.com"  
+git config --global user.name "Your Name"  
 
-alias: </br>
-echo @dir %* > %systemroot%\system32\ls.bat </br>
+alias:  
+echo @dir %* > %systemroot%\system32\ls.bat  
 
 ----
 
