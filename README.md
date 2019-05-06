@@ -1,5 +1,14 @@
 ### starting from an existing project  
-https://kbroman.org/github_tutorial/pages/init.html
+https://kbroman.org/github_tutorial/pages/init.html  
+  
+cd to existing directory  
+git init  
+git add --all
+git commit -m "[message]"  
+#### connect it to github  
+go to github.com, create a new repo  
+$ git remote add origin git@github.com:username/new_repo  
+$ git push -u origin master  
 
 ### starting from github  
 go to github.com, create a new repo  
