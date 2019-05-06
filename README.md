@@ -1,12 +1,12 @@
 ### starting from an existing project  
 https://kbroman.org/github_tutorial/pages/init.html  
-  
+must be connected with SSH first  
 cd to existing directory  
 git init  
 git add --all  
 git commit -m "[message]"  
 #### connect it to github  
-go to github.com, create a new repo  
+go to github.com, create a new repo.  MUST BE EMPTY, NO README OR GITIGNORE  
 from green 'clone or download' choose 'Use SSH"  
 $ git remote add origin git@github.com:username/new_repo  
 $ git push -u origin master  
@@ -39,8 +39,13 @@ git checkout hash
 more:  
 git (gives list of commands)  
 esc :wq (escapes and saves from a 'you didn't give a message' warning from a commit or lets you do multiline)  
+   
 remove a git:  
+linux:  
 rm -rf .git  
+windows:  
+del /F /S /Q /A .git  
+rmdir .git  
 
 first commit will ask:  
 git config --global user.email "you@example.com"  
@@ -48,6 +53,11 @@ git config --global user.name "Your Name"
 
 alias:  
 echo @dir %* > %systemroot%\system32\ls.bat  
+
+add SSH:  
+generate ssh key  
+C:\Users\USERNAME\.ssh\id_rsa.pub (open with text editor)
+https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account  
 
 ----
 
