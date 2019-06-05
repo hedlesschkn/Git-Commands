@@ -71,6 +71,14 @@ generate ssh key
 C:\Users\USERNAME\.ssh\id_rsa.pub (open with text editor)
 https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account  
 
+Do a Pull Request:
+fork the original  
+clone your new forked repo (not the original)  
+make modifications  
+add, commit, push  
+in github.com, from your repo, 'new pull request' button  
+original will recieve request and accept or deny  
+
 ----
 
 Git Commands
