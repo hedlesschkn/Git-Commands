@@ -1,3 +1,13 @@
+### seting up github
+make a github account  
+download the latest version of git  
+ - https://git-scm.com/downloads  
+set username in git
+ - $ git config --global user.name "My Name"
+set commit email address
+ - $ git config --global user.email "email@example.com"
+ 
+
 ### starting from an existing project  
 https://kbroman.org/github_tutorial/pages/init.html  
 must be connected with SSH first  
