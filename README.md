@@ -54,8 +54,10 @@ remove a git:
 linux:  
 rm -rf .git  
 windows:  
-del /F /S /Q /A .git  
-rmdir .git  
+del /F /S /Q /A .git
+rmdir /s .git
+cd ..
+rmdir /s <folder>
 
 first commit will ask:  
 git config --global user.email "you@example.com"  
