@@ -20,6 +20,10 @@ go to github.com, create a new repo.  MUST BE EMPTY, NO README OR GITIGNORE
 from green 'clone or download' choose 'Use SSH"  
 $ git remote add origin git@github.com:username/new_repo  
 $ git push -u origin master  
+if you made a readme this will fail and you need to do
+$ git pull --rebase  
+then  
+$ git push  
 
 ### starting from github  
 go to github.com, create a new repo  
